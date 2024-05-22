@@ -1,0 +1,111 @@
+:root {
+  line-height: 1.5;
+  font-family: Satoshi;
+  font-weight: 400;
+
+
+  color-scheme: light dark;
+  color: var(--black-color);
+  background-color: hsl(0, 0%, 100%);
+  padding: 0px;
+
+  scroll-behavior: smooth;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  transition: all 0.35s;
+  --black-color: hsl(0, 0%, 0%);
+  --dark-grey: hsl(0, 0%, 63%);
+  --very-dark-grey: hsl(0, 0%, 27%);
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  padding: 0;
+  margin: 0px;
+}
+@font-face {
+  font-family: Satoshi;
+  src: url(../Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Regular.ttf);
+}
+@font-face {
+  font-family: SatoshiBold;
+  src: url(../Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Bold.ttf);
+}
+p{
+  color: var(--dark-grey);
+  margin: 0;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-weight: 800;
+  font-family: SatoshiBold;
+  margin: 0;
+}
+h2{
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 0;
+}
+h3{
+  font-size: 1.8rem;
+  margin: 0;
+}
+h4{
+  font-size: 1.2rem;
+  font-family: SatoshiBold;
+  margin: 0;
+  transition: all 0.35s;
+  cursor: pointer;
+}
+
+button {
+  /* border-radius: 8px; */
+  border: 1px solid transparent;
+  /* padding: 0.6em 1.2em; */
+  padding: 1.2rem 2rem;
+  font-size: 2em;
+  font-weight: 500;
+  font-family: inherit;
+  background: var(--black-color);
+  cursor: pointer;
+  transition: all 0.25s;
+}
+button:hover {
+  background: #2f2f2f;
+}
+/* button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    /* background-color: #f9f9f9; */
+  }
+}
+img{
+  padding: 0px;
+  transition: all 0.35s;
+  /* background: black; */
+  /* width: 350px; */
+  /* height: auto; */
+}
